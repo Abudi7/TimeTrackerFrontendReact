@@ -2,7 +2,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL ?? "http://localhost:4000",
+  baseURL: import.meta.env.VITE_API_URL ?? "https://timetrackerbackendapi-production.up.railway.app/",
   withCredentials: false, // لأنك تستخدم Bearer وليس Cookies
 });
 
